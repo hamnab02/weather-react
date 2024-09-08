@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Weather />
         <a
           className="App-link"
           href="https://reactjs.org"
